@@ -4,13 +4,13 @@ package com.example.android.tourguide.fragments;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.fragment.app.Fragment;
 
 import com.example.android.tourguide.R;
 
@@ -53,6 +53,13 @@ public class InformationFragment extends Fragment {
         TextView descriptionTV = rootView.findViewById((R.id.description));
         TextView longAddressTV = rootView.findViewById(R.id.long_address);
         TextView workHoursOrPriceTV = rootView.findViewById(R.id.work_hours_or_price);
+        TextView textView = rootView.findViewById(R.id.tv_review);
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                initReview();
+            }
+        });
         final TextView phoneTV = rootView.findViewById(R.id.phone);
         final TextView webpageTV = rootView.findViewById(R.id.webpage);
         ImageView phoneIV = rootView.findViewById(R.id.phone_iv);
@@ -80,8 +87,8 @@ public class InformationFragment extends Fragment {
         webpageTV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url=webpageTV.getText().toString();
-                if (!url.startsWith("https://") && !url.startsWith("http://")){
+                String url = webpageTV.getText().toString();
+                if (!url.startsWith("https://") && !url.startsWith("http://")) {
                     url = "http://" + url;
                 }
                 Intent openUrlIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
@@ -99,41 +106,37 @@ public class InformationFragment extends Fragment {
 
         //Some data can be missing, such as description or phone, so these codes are for removing related views in null cases:
 
-        if(description == null){
+        if (description == null) {
 
             descriptionTV.setVisibility(View.GONE);
         }
 
-        if(phone == null || phone.equals("")){
-
+        if (phone == null || phone.equals("")) {
             phoneTV.setVisibility(View.GONE);
             phoneIV.setVisibility(View.GONE);
         }
 
-        if(workHoursOrPrice == null || workHoursOrPrice.equals(" ")){
-
+        if (workHoursOrPrice == null || workHoursOrPrice.equals(" ")) {
             workHoursOrPriceTV.setVisibility(View.GONE);
-        }
-
-        else if(workHoursOrPrice.contains("PKR") ){
-
+        } else if (workHoursOrPrice.contains("PKR")) {
             workHoursOrPriceTV.setText("Price:   " + workHoursOrPrice);
-        }
-
-        else {
-
+        } else {
             workHoursOrPriceTV.setText("Working Hours: " + workHoursOrPrice);
-
         }
 
 
-        if(webpage == null || webpage.equals("")){
-
+        if (webpage == null || webpage.equals("")) {
             webpageTV.setVisibility(View.GONE);
             webIV.setVisibility(View.GONE);
         }
 
         return rootView;
+    }
+
+    private void initReview() {
+        Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
+                Uri.parse(webpage));
+        startActivity(intent);
     }
 
 }

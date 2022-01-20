@@ -73,11 +73,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         mDrawer.setNavigationItemSelectedListener(this);
 
         mDrawerLayout = findViewById(R.id.drawerLayout);
-        mToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.open, R.string.close);
-
-
-        mDrawerLayout.addDrawerListener(mToggle);
-        mToggle.syncState();
+//        mToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.open, R.string.close);
+//
+//
+//        mDrawerLayout.addDrawerListener(mToggle);
+//        mToggle.syncState();
 
         //in order to save instance state in case of orientation change:
         if (savedInstanceState != null) {
