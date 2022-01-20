@@ -1,0 +1,673 @@
+<resources>
+
+    <!--For all descriptions, credit goes to Google maps, tripadvisor and wikipedia -->
+    <!-- Since there are lots of photos, I could not give source, but this project is prepared only for Final year project. -->
+
+    <string name="app_name">KPK Tour Guide App</string>
+
+    <string name="home">Home</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="popular_places">Popular Places</string>
+    <string name="museums">Museums</string>
+    <string name="cafe_restaurant">Cafe &amp; Restaurant</string>
+    <string name="shopping">Shopping</string>
+    <string name="hotels">Hotels</string>
+    <string name="bus">Bus</string>
+    <string name="brt">BRT Peshawar</string>
+    <string name="airports">Airports</string>
+    <string name="hospitals">Hospitals</string>
+    <string name="transportation">Transportation</string>
+
+    <string name="bab_e_khyber1">Ratti Gali Lake</string>
+    <string name="bab_e_khyber_hook1">It usually takes 45 minutes to reach Ratti Gali from Base Camp. There are comfortable arrangements for night stay at base camp. You can easily go towards lake by yourself or rent horse from locals. You have to rent jeep in order to reach base camp. No chance of inconvenience at any point!</string>
+    <string name="bab_e_khyber_short_address1">Jammu and Kashmir</string>
+    <string name="bab_e_khyber_long_address1">Ratti Gali Lake, Dowarian, Jammu and Kashmir</string>
+    <string name="bab_e_khyber_description1">It usually takes 45 minutes to reach Ratti Gali from Base Camp. There are comfortable arrangements for night stay at base camp. You can easily go towards lake by yourself or rent horse from locals. You have to rent jeep in order to reach base camp. No chance of inconvenience at any point!</string>
+    <string name="bab_e_khyber_working_hours1">05:00&#8211;21:00</string>
+    <string name="bab_e_khyber_phone1"></string>
+    <string name="bab_e_khyber_web1"></string>
+
+    <string name="bab_e_khyber2">Pir Chanasi</string>
+    <string name="bab_e_khyber_hook2">the best thing about Pir Chinasi is, it\'s so near to Muzaffarabad and Road is in Good Condition, so anyone can reach…</string>
+    <string name="bab_e_khyber_short_address2">Azad Jammu and Kashmir</string>
+    <string name="bab_e_khyber_long_address2">Pir Chinasi، Muzaffarabad, Azad Jammu and Kashmir</string>
+    <string name="bab_e_khyber_description2">the best thing about Pir Chinasi is, it\'s so near to Muzaffarabad and Road is in Good Condition, so anyone can reach…</string>
+    <string name="bab_e_khyber_working_hours2">05:00&#8211;21:00</string>
+    <string name="bab_e_khyber_phone2"></string>
+    <string name="bab_e_khyber_web2"></string>
+
+    <string name="bab_e_khyber3">Dream Valley Resort</string>
+    <string name="bab_e_khyber_hook3">Dream Valley Resort is located in the beautiful valley of Rawalakot, Azad Kashmir. The Dream Valley Resort is about 128KMs away from the Capital City of Islamabad, Pakistan. It offers extremely enchanting and natural beauty with lots of amenities like Kids Play Land, Restaurent, Huts, Tourist Rooms and Water Park. It\'s where the real family fun begins!</string>
+    <string name="bab_e_khyber_short_address3">Rawalakot</string>
+    <string name="bab_e_khyber_long_address3">XQG6+89R, Rawalakot</string>
+    <string name="bab_e_khyber_description3">Dream Valley Resort is located in the beautiful valley of Rawalakot, Azad Kashmir. The Dream Valley Resort is about 128KMs away from the Capital City of Islamabad, Pakistan. It offers extremely enchanting and natural beauty with lots of amenities like Kids Play Land, Restaurent, Huts, Tourist Rooms and Water Park. It\'s where the real family fun begins!</string>
+    <string name="bab_e_khyber_working_hours3">05:00&#8211;21:00</string>
+    <string name="bab_e_khyber_phone3"></string>
+    <string name="bab_e_khyber_web3"></string>
+
+
+    <string name="bab_e_khyber4">Bhanjosa Lake</string>
+    <string name="bab_e_khyber_hook4">This place is located on main road from Rawalakot to Trar Khel. good place to visit with a small canal and good view of natural beauty</string>
+    <string name="bab_e_khyber_short_address4">Azad Jammu and Kashmir</string>
+    <string name="bab_e_khyber_long_address4">Public Works Department Rest House Rd, Banjosa, Azad Jammu and Kashmir</string>
+    <string name="bab_e_khyber_description4">This place is located on main road from Rawalakot to Trar Khel. good place to visit with a small canal and good view of natural beauty</string>
+    <string name="bab_e_khyber_working_hours4">05:00&#8211;21:00</string>
+    <string name="bab_e_khyber_phone4"></string>
+    <string name="bab_e_khyber_web4"></string>
+
+
+    <string name="bab_e_khyber5">Nergola Waterfall</string>
+    <string name="bab_e_khyber_hook5">Nergola Waterfall is loacated in Rawalakot at a distance of 120 km from Rawalpindi. it takes t around three hours dirve from rawalpindi.the road is little bumpy but it will refresh you when you will get here. its location is just outside Rawalakot city in a place called mutialmera. There is a guest house located just across the street when you reach Nargola Waterfall.</string>
+    <string name="bab_e_khyber_short_address5">Azad Kashmir</string>
+    <string name="bab_e_khyber_long_address5">Rawalakot Road Azad Kashmir</string>
+    <string name="bab_e_khyber_description5">Nergola Waterfall is loacated in Rawalakot at a distance of 120 km from Rawalpindi. it takes t around three hours dirve from rawalpindi.the road is little bumpy but it will refresh you when you will get here. its location is just outside Rawalakot city in a place called mutialmera. There is a guest house located just across the street when you reach Nargola Waterfall.</string>
+    <string name="bab_e_khyber_working_hours5">05:00&#8211;21:00</string>
+    <string name="bab_e_khyber_phone5"></string>
+    <string name="bab_e_khyber_web5"></string>
+
+
+    <string name="bab_e_khyber6">Neelum River</string>
+    <string name="bab_e_khyber_hook6">If you are visiting Azad Kashmir, you must visit upper Neelum valley situated Alongside Neelum river. Places like Kutton, Sharda and Kel/Arangkel must be seen. If you like adventure and natural beauty at its best, then go far Taobat, a true heaven on earth. But be warned that roads are in pretty bad shape so hire a local jeep.</string>
+    <string name="bab_e_khyber_short_address6">Azad Kashmir</string>
+    <string name="bab_e_khyber_long_address6">Rawalakot Road Azad Kashmir</string>
+    <string name="bab_e_khyber_description6">If you are visiting Azad Kashmir, you must visit upper Neelum valley situated Alongside Neelum river. Places like Kutton, Sharda and Kel/Arangkel must be seen. If you like adventure and natural beauty at its best, then go far Taobat, a true heaven on earth. But be warned that roads are in pretty bad shape so hire a local jeep.</string>
+    <string name="bab_e_khyber_working_hours6">05:00&#8211;21:00</string>
+    <string name="bab_e_khyber_phone6"></string>
+    <string name="bab_e_khyber_web6"></string>
+
+
+    <string name="bab_e_khyber7">Darbar e Aalia Khari Sharif</string>
+    <string name="bab_e_khyber_hook7">It was a nice peaceful place, people were coming from all over. Just keep in mind like on all darbars on this one as well you are supposed to ask from God, not the person resting and pray for the person resting there as well.</string>
+    <string name="bab_e_khyber_short_address7">Muzaffarabad</string>
+    <string name="bab_e_khyber_long_address7">Muzaffarabad, 7 خاص دربار, Darbaar Main St, Khari Sharif, Azad Jammu and Kashmir</string>
+    <string name="bab_e_khyber_description7">It was a nice peaceful place, people were coming from all over. Just keep in mind like on all darbars on this one as well you are supposed to ask from God, not the person resting and pray for the person resting there as well.</string>
+    <string name="bab_e_khyber_working_hours7">05:00&#8211;21:00</string>
+    <string name="bab_e_khyber_phone7"></string>
+    <string name="bab_e_khyber_web7"></string>
+
+
+    <string name="bab_e_khyber8">Arang Kel</string>
+    <string name="bab_e_khyber_hook8">Arang kel is one of the most beautiful meadows in Kashmir . from Kel u have two options - take an army monitored chair lift or trek for 3-4 hours . Chair lift cost us 100 pkr per person for a return ride .</string>
+    <string name="bab_e_khyber_short_address8"> Kashmir</string>
+    <string name="bab_e_khyber_long_address8">Neelum Valley Road, Arang Kel, Azad Jammu and Kashmir 13231</string>
+    <string name="bab_e_khyber_description8">Arang kel is one of the most beautiful meadows in Kashmir . from Kel u have two options – take an army monitored chair lift or trek for 3–4 hours . Chair lift cost us 100 pkr per person for a return ride .</string>
+    <string name="bab_e_khyber_working_hours8">05:00&#8211;21:00</string>
+    <string name="bab_e_khyber_phone8"></string>
+    <string name="bab_e_khyber_web8"></string>
+
+
+    <string name="bab_e_khyber9">Neelum Valley</string>
+    <string name="bab_e_khyber_hook9">Kashmir.which is also called paradise on earth has something to offer all time in a year .Neelym valley which is almost 100 kms from Muzaffarabad city is most beautiful place in azad kashmir ,Pakistan.In winter there is snowy mountains which present beatiful scenery .In summer it has amazing weather.If you get a chance visit this place you will remember it forever</string>
+    <string name="bab_e_khyber_short_address9">Sharda</string>
+    <string name="bab_e_khyber_long_address9"> Neelum Valley Road, Sharda</string>
+    <string name="bab_e_khyber_description9">Kashmir.which is also called paradise on earth has something to offer all time in a year .Neelym valley which is almost 100 kms from Muzaffarabad city is most beautiful place in azad kashmir ,Pakistan.In winter there is snowy mountains which present beatiful scenery .In summer it has amazing weather.If you get a chance visit this place you will remember it forever</string>
+    <string name="bab_e_khyber_working_hours9">05:00&#8211;21:00</string>
+    <string name="bab_e_khyber_phone9"></string>
+    <string name="bab_e_khyber_web9"></string>
+
+
+    <string name="bab_e_khyber10">Toli Pir</string>
+    <string name="bab_e_khyber_hook10"> Tolipeer is situated inAzadJammu kashmir Pakistan.A famous and beautiful resort . On Top of hill it has amazing view.</string>
+    <string name="bab_e_khyber_short_address10">Toli Pir</string>
+    <string name="bab_e_khyber_long_address10"> Toli Pir Rd, Toli Pir, Shaheed Gala, Rawalakot, Azad Jammu and Kashmir 12350</string>
+    <string name="bab_e_khyber_description10"> Tolipeer is situated inAzadJammu kashmir Pakistan.A famous and beautiful resort . On Top of hill it has amazing view.</string>
+    <string name="bab_e_khyber_working_hours10">05:00&#8211;21:00</string>
+    <string name="bab_e_khyber_phone10"></string>
+    <string name="bab_e_khyber_web10"></string>
+
+
+    <string name="bab_e_khyber11">Jari Kas Park</string>
+    <string name="bab_e_khyber_hook11"> This is a great park and as the name suggests it is for families to go and enjoy, kids will love the riders while the adults can enjoy the lovely scenery ( and rides). from quads and pirate ship to zip line and Ferris wheel there is something for all. oh and you have to check out the virtual reality motion rides its a must!!!</string>
+    <string name="bab_e_khyber_short_address11">Kotli</string>
+    <string name="bab_e_khyber_long_address11"> Kotli Rd, Khalaqabad, AJK</string>
+    <string name="bab_e_khyber_description11"> This is a great park and as the name suggests it is for families to go and enjoy, kids will love the riders while the adults can enjoy the lovely scenery ( and rides). from quads and pirate ship to zip line and Ferris wheel there is something for all. oh and you have to check out the virtual reality motion rides its a must!!!</string>
+    <string name="bab_e_khyber_working_hours11">05:00&#8211;21:00</string>
+    <string name="bab_e_khyber_phone11"></string>
+    <string name="bab_e_khyber_web11"></string>
+
+
+    <string name="bab_e_khyber12">Kohala Bridge</string>
+    <string name="bab_e_khyber_hook12"> It is a bridge connecting Azad Kashmir to Murree. The name of the place is Kohala and so the name of bridge is kohala bridge. Under the bridge is a river Neelam. There are spots n restaurants under the bridge where one can sit either at the edge of the river or even inside the waters on the bank of river. The best food to try here is the white trout fish. Also one can relax, take pictures in water. The place is surrounded by mountains and clouds on top makes it more beautiful and magical.</string>
+    <string name="bab_e_khyber_short_address12">Kohala</string>
+    <string name="bab_e_khyber_long_address12"> Kohala Bridge</string>
+    <string name="bab_e_khyber_description12"> It is a bridge connecting Azad Kashmir to Murree. The name of the place is Kohala and so the name of bridge is kohala bridge. Under the bridge is a river Neelam. There are spots n restaurants under the bridge where one can sit either at the edge of the river or even inside the waters on the bank of river. The best food to try here is the white trout fish. Also one can relax, take pictures in water. The place is surrounded by mountains and clouds on top makes it more beautiful and magical.</string>
+    <string name="bab_e_khyber_working_hours12">05:00&#8211;21:00</string>
+    <string name="bab_e_khyber_phone12"></string>
+    <string name="bab_e_khyber_web12"></string>
+
+
+    <string name="bab_e_khyber13">Mir Ild City Ruins</string>
+    <string name="bab_e_khyber_hook13"> As Mangla Dam has dried up it was possible to drive from New Mirpur down to the Old Mirpur site. My parents moved to the new city circa 1968 as Mangla Dam was being built. Was a moving experience to see the Old Hindu Temple, which stood above the main Bazaar where my father had a small shop.Bawali, according to my mother, was almost like a public bath where local men used to bathe and partake in gym type activities and wrestling.</string>
+    <string name="bab_e_khyber_short_address13">Kashmir</string>
+    <string name="bab_e_khyber_long_address13"> 5P2V+V4H, New Mirpur City, Azad Jammu and Kashmir</string>
+    <string name="bab_e_khyber_description13"> As Mangla Dam has dried up it was possible to drive from New Mirpur down to the Old Mirpur site. My parents moved to the new city circa 1968 as Mangla Dam was being built. Was a moving experience to see the Old Hindu Temple, which stood above the main Bazaar where my father had a small shop.Bawali, according to my mother, was almost like a public bath where local men used to bathe and partake in gym type activities and wrestling.</string>
+    <string name="bab_e_khyber_working_hours13">05:00&#8211;21:00</string>
+    <string name="bab_e_khyber_phone13"></string>
+    <string name="bab_e_khyber_web13"></string>
+
+
+    <string name="bab_e_khyber14">Dhani Waterfall</string>
+    <string name="bab_e_khyber_hook14"> Its a nice place snakes and bathrooms are available at this place, Special point you can wash your car for free running water tapes. There are few shops of Biscuits, Pakoras, Tea Cofee.</string>
+    <string name="bab_e_khyber_short_address14">Kashmir</string>
+    <string name="bab_e_khyber_long_address14"> CMFR+JCX, Dhani, Azad Jammu and Kashmir</string>
+    <string name="bab_e_khyber_description14"> Its a nice place snakes and bathrooms are available at this place, Special point you can wash your car for free running water tapes. There are few shops of Biscuits, Pakoras, Tea Cofee.</string>
+    <string name="bab_e_khyber_working_hours14">05:00&#8211;21:00</string>
+    <string name="bab_e_khyber_phone14"></string>
+    <string name="bab_e_khyber_web14"></string>
+
+
+    <string name="bab_e_khyber15">Ramkot Fort</string>
+    <string name="bab_e_khyber_hook15"> Fort has magnificent views of Mangla Dam. It is under Pakistan Army control and boat ride is highly recommended to view the entire area. Good place for family outing .</string>
+    <string name="bab_e_khyber_short_address15">Jhelum</string>
+    <string name="bab_e_khyber_long_address15">6JFR+9P4, Bhali, Jhelum</string>
+    <string name="bab_e_khyber_description15"> Fort has magnificent views of Mangla Dam. It is under Pakistan Army control and boat ride is highly recommended to view the entire area. Good place for family outing .</string>
+    <string name="bab_e_khyber_working_hours15">05:00&#8211;21:00</string>
+    <string name="bab_e_khyber_phone15"></string>
+    <string name="bab_e_khyber_web15"></string>
+
+
+    <string name="sardaryab">Sardaryab</string>
+    <string name="shahi_bagh">Shahi Bagh</string>
+    <string name="islamia_college_peshawar">Islamia College Peshawar</string>
+    <string name="peshawar_university">Peshawar University</string>
+    <string name="tatarah_park">Tatarah Park</string>
+    <string name="qila_e_balah_isar">Qila_E_Balah_Hisar</string>
+    <string name="governor_house">Governor House</string>
+
+
+    <!---Hook-->
+    <string name="sardaryab_hook">A nice little tourist attraction built on site of Great Kabul River</string>
+    <string name="shahi_bagh_hook">The oldest gardens in Peshawar</string>
+    <string name="islamia_college_peshawar_hook">Historical &amp; Educational institution</string>
+    <string name="peshawar_university_hook">A historic and educational place</string>
+    <string name="tatarah_park_hook">Recreational park</string>
+    <string name="qila_e_balah_isar_hook">Recreational &amp; historical place</string>
+    <string name="governor_house_hook">Recreational &amp; historical place</string>
+
+
+    <!---                                         Short Address                                              -->
+    <string name="sardaryab_short_address">Charsadda</string>
+    <string name="shahi_bagh_short_address">Faqirabad Peshawar</string>
+    <string name="islamia_college_peshawar_short_address">Grand Trunk Rd</string>
+    <string name="peshawar_university_short_address">Rahat Abad</string>
+    <string name="tatarah_park_short_address">Hayatabad</string>
+    <string name="qila_e_balah_isar_short_address">Hashtnagri</string>
+    <string name="governor_house_short_address">Sahibzada Abdul Qayyum Rd</string>
+
+
+    <!---                                         long Address                                              -->
+    <string name="sardaryab_long_address">Charsadah, Khyber Pukhtoon Khaw</string>
+    <string name="shahi_bagh_long_address">Faqirabad Peshawar, Shahi bagh road</string>
+    <string name="islamia_college_peshawar_long_address">Grand Trunk Rd, Rahat Abad, Peshawar, Khyber Pakhtunkhwa</string>
+    <string name="peshawar_university_long_address">Grand Trunk Rd, Rahat Abad, Peshawar, Khyber Pakhtunkhwa</string>
+    <string name="tatarah_park_long_address">Phase 4 Hayatabad, Peshawar, Khyber Pakhtunkhwa</string>
+    <string name="qila_e_balah_isar_long_address">Bala Hisar Fort, Hashtnagri, Peshawar, Khyber Pakhtunkhwa</string>
+    <string name="governor_house_long_address">Sahibzada Abdul Qayyum Rd, Finance Department, Civil Secretariat, Peshawar, Khyber Pakhtunkhwa</string>
+
+
+    <!---                                         descriptions                                              -->
+    <string name="sardaryab_description">Sardaryab is a local tourist and picnic spot near Peshawar, Pakistan. It is situated in the Charsadda District and located on the banks of the Kabul River some 20 kilometres north on Peshawar-Charsadda Road. It is a popular site for tourists from Peshawar and Charsadda, especially famous for fresh fish eating.</string>
+    <string name="shahi_bagh_description">"The oldest and largest gardens in Peshawar, Khyber Pakhtunkhwa Pakistan.It is a Mughal-era park located in the Peshawar city near the Arbab Niaz Stadium and has been a hub for political meetings, literary and social gatherings in the city.[4]"</string>
+    <string name="islamia_college_peshawar_description">Islamia College Peshawar, the symbol of academic excellence is rich in history. Its building, which is the best embodiment of Muslim civilization in south Asia and its lush green lawns attract visitors from all over the country and abroad. It is not only the culminating point of the Aligarh Movement, it is in fact the beautiful combination of Aligarh and Deoband Schools of Thought.</string>
+    <string name="peshawar_university_description">The University of Peshawar, a future-oriented and unique institution is committed to achieving excellence in the undergraduate and graduate education, It is also a historical places for tourists and students</string>
+    <string name="tatarah_park_description">Tatara Park is a recreational park located in Phase 1, Hayatabad, Peshawar[1]. Tatara Park has been developed from a garden lawn with man-made lakes, into a theme park</string>
+    <string name="qila_e_balah_isar_description">The provincial government has expressed desire the control of the fort from the Frontier Corps in order to open it to tourists.[7] The fort has been opened for tourists (Saturday for families only and Sundays will be opened for everyone, with or without family) with out any cost but, tourists are requested to bring their CNIC along with them, while international tourists are requested to bring their passports. There is also a museum of the Frontier Corps in the fort showcasing the different uniforms of Frontier Corps throughout time since the start of Frontier Corps and weaponry used by different local units of Frontier Corps KP including but due to prevailing situation of covid-19 Fort is currently closed for all types of visits</string>
+    <string name="governor_house_description">"The Governor\'s House in Peshawar, Khyber Pakhtunkhwa, Pakistan is a historic building and has a secret tunnel from the left side mosque to the Bala Hisar Fort it is about 1.25 km long, amidst what is now a park. ... It serves as the official residence of the Governor of Khyber Pakhtunkhwa."</string>
+
+
+    <!--Working hours-->
+    <string name="sardaryab_working_hours">24hours</string>
+    <string name="shahi_bagh_work_hours">14.00&#8211;21:00</string>
+    <string name="islamia_college_peshawar_work_hours">08.00&#8211;16:00</string>
+    <string name="peshawar_university_work_hours">08.00&#8211;17:00</string>
+    <string name="tatarah_park_work_hours">14.00&#8211;21:00</string>
+    <string name="qila_e_balah_isar_work_hours">15:00&#8211;19:00</string>
+    <string name="governor_house_work_hours">24 hours</string>
+
+
+    <!--phone-->
+    <string name="sardaryab_phone"></string>
+    <string name="shahi_bagh_phone"></string>
+    <string name="islamia_college_peshawar_phone">0919222142</string>
+    <string name="peshawar_university_phone">09\-19216701</string>
+    <string name="tatarah_park_phone">0311\-5839003</string>
+    <string name="qila_e_balah_isar_phone"></string>
+    <string name="governor_house_phone">0333\-9736301</string>
+
+
+    <!--website-->
+    <string name="sardaryab_web"></string>
+    <string name="shahi_bagh_web"></string>
+    <string name="islamia_college_peshawar_web">www.icp.edu.pk</string>
+    <string name="peshawar_university_web">www.uop.edu.pk</string>
+    <string name="tatarah_park_web"></string>
+    <string name="qila_e_balah_isar_web"></string>
+    <string name="governor_house_web"></string>
+
+
+    <!--Popular Place-->
+
+    <string-array name="popular_places_name">
+        <item>Bab-e-Khyber</item>
+        <item>Sardaryab</item>
+        <item>Governors House</item>
+        <item>Peshawar University</item>
+        <item>Islamia College</item>
+        <item>Tatarah Park</item>
+        <item>Qila_e_balah_hisar</item>
+    </string-array>
+    <string-array name="popular_places_latitude">
+        <item>34.0941</item>
+        <item>34.1338</item>
+        <item>34.0094474</item>
+        <item>34.0085944</item>
+        <item>34.0000505</item>
+        <item>33.9815438</item>
+        <item>33.9816708</item>
+        <item>34.0193515</item>
+    </string-array>
+    <string-array name="popular_places_longitude">
+        <item>71.1575</item>
+        <item>71.6925</item>
+        <item>71.5568915</item>
+        <item>71.4856299</item>
+        <item>71.4737795</item>
+        <item>71.4424529</item>
+        <item>71.3746008</item>
+        <item>71.57178</item>
+    </string-array>
+    <string-array name="popular_places_short_address">
+        <item>Grand Trunk Rd, Jamrud</item>
+        <item>Charsadda</item>
+        <item>Sahibzada Abdul Qayyum Rd</item>
+        <item>Old Jamrud Road</item>
+        <item>Grand Trunk Rd</item>
+        <item>Grand Trank Road</item>
+        <item>Hashtnagri</item>
+        <item>Faqirabad</item>
+    </string-array>
+    <string-array name="popular_places_long_address">
+        <item></item>
+        <item>Charsadda, Khyber Pakhtunkhwa</item>
+        <item>Sahibzada Abdul Qayyum Rd, Finance Department, Civil Secretariat, Peshawar, Khyber Pakhtunkhwa</item>
+        <item>Old Jamrud Road, Qadir Abad, Peshawar, Khyber Pakhtunkhwa</item>
+        <item>Grand Trunk Rd, Rahat Abad, Peshawar, Khyber Pakhtunkhwa</item>
+        <item>Phase-4 Phase 4 Hayatabad, Peshawar, Khyber Pakhtunkhwa</item>
+        <item>Bala Hisar Fort,Hashtnagri,Peshawar,</item>
+        <item>Faqirabad Peshawar.</item>
+    </string-array>
+    <string-array name="popular_places_phone">
+        <item></item>
+        <item></item>
+        <item>0333 9736301</item>
+        <item>(091) 9216701</item>
+        <item>(091) 9222036</item>
+        <item>0311 5839003</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="popular_places_webpage">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>www.uop.edu.pk</item>
+        <item>https://icp.edu.pk/</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="popular_places_working_hours">
+        <item>05.00–21.00</item>
+        <item>24hours</item>
+        <item>09.00–17.00</item>
+        <item>08.00–17.00</item>
+        <item>08.00–16.00</item>
+        <item>02.00–22.00</item>
+        <item>02.00–22.00</item>
+    </string-array>
+    <string-array name="popular_places_description">
+        <item>The Bab-e-Khyber is a monument situated at the entrance of the Khyber Pass in the Khyber Pakhtunkhwa province of Pakistan. The gate is located immediately west of Peshawar, with the historic Jamrud Fort lying adjacent to it.</item>
+        <item>Sardaryab is a local tourist and picnic spot near Peshawar, Pakistan. It is situated in the Charsadda District and located on the banks of the Kabul River some 20 kilometres north on Peshawar-Charsadda Road. It is a popular site for tourists from Peshawar and Charsadda, especially famous for fresh fish eating.</item>
+        <item>"The Governor's House in Peshawar, Khyber Pakhtunkhwa, Pakistan is a historic building and has a secret tunnel from the left side mosque to the Bala Hisar Fort it is about 1.25 km long, amidst what is now a park. It is close to the Peshawar Museum. It serves as the official residence of the Governor of Khyber Pakhtunkhwa."</item>
+        <item>"The University of Peshawar, as a mother educational institution of Khyber Pakhtunkhwa is an outcome of the dream of the father of the nation and was created as the first ever University after independence. It is vigorously working with its full zeal and spirit, truly serving and sacred cause of education altogether."</item>
+        <item>"Islamia College Peshawar, the symbol of academic excellence is rich in history. Its building, which is the best embodiment of Muslim civilization in south Asia and its lush green lawns attract visitors from all over the country and abroad. It is not only the culminating point of the Aligarh Movement, it is in fact the beautiful combination of Aligarh and Deoband Schools of Thought. Being the breeding ground of the Pashtun intelligentsia, this great seat of learning is the place, where diamonds are skimmed since 1913. Moreover, Islamia College Peshawar was destined to become mother institution of the three universities and several colleges on its campus. The credit of this goes to Sir Sahibzada Abdul Qayyum, who is commonly called The Sir Sayyed of the Frontier and his sincere colleagues, who founded Islamia College Peshawar in 1913."</item>
+        <item>"Tatara Park is a recreational park located in Phase 1, Hayatabad, Peshawar[1]. Tatara Park has been developed from a garden lawn with man-made lakes, into a theme park.[2][3][4]</item>
+        <item>"Bala Hissar (Pashto/Urdu/Hindko: قلعه بالاحصار), also spelt Bala Hisar, is a historic fortress located in Peshawar, Khyber Pakhtunkhwa, Pakistan. First mentioned by 7th-century explorer Xuanzang, the fort was used as a royal residence for the Durrani Empire since December 1747, when Ahmad Shah Durrani conquered Peshawar. The Sikhs reconstructed the fort after capturing Peshawar in March 1823. In 1849, the British East India Company reconstructed the fort's outer walls."</item>
+        <item>"Shahi Bagh (Pashto: شاهي باغ‎ About this soundpronounce (help·info), Urdu: شاهي باغ‎ About this soundpronounce (help·info)) is one of the oldest and largest gardens in Peshawar, Khyber Pakhtunkhwa Pakistan.[1][2][3] It is a Mughal-era park located in the Peshawar city near the Arbab Niaz Stadium and has been a hub for political meetings, literary and social gatherings in the city.[4]"</item>
+    </string-array>
+
+    <!--        Museum-->
+    <string-array name="museum_name">
+        <item>Peshawar Museum</item>
+        <item>Pushkalavati Museum</item>
+        <item>Sethi House Museum</item>
+    </string-array>
+    <string-array name="museum_latitude">
+        <item>34.0078337</item>
+        <item>34.1811589</item>
+        <item>34.009269</item>
+    </string-array>
+    <string-array name="museum_longitude">
+        <item>71.5560177</item>
+        <item>71.780752</item>
+        <item>71.5764558</item>
+    </string-array>
+    <string-array name="museum_short_address">
+        <item>Saddar Road Peshawar</item>
+        <item>Charsadah Peshawar</item>
+        <item>Yakkatoot</item>
+    </string-array>
+    <string-array name="museum_long_address">
+        <item>Saddar Road opposite Governor House Peshawar  Civil Secretariat، Finance Department, Civil Secretariat, Peshawar, Khyber Pakhtunkhwa, Pakistan</item>
+        <item>charsadda pushkalavati، Pakistan</item>
+        <item>Sethial St, Kheshgi Payan YAKKATOOT, Peshawar, Khyber Pakhtunkhwa, Pakistan</item>
+    </string-array>
+    <string-array name="museum_phone">
+        <item>+92919210985</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="museum_webpage">
+        <item>https://www.kparchaeology.com</item>
+        <item>https://www.kparchaeology.com</item>
+        <item>https://www.kparchaeology.com</item>
+    </string-array>
+    <string-array name="museum_working_hours">
+        <item>09:00&#8211;17:00</item>
+        <item>09:00&#8211;18:00</item>
+        <item>09:00&#8211;17:00</item>
+    </string-array>
+    <string-array name="museum_description">
+        <item>The present main hall of the Peshawar Museum was built in 1906\–07 in the memory of Queen Victoria at the cost of Rs.60000, out of which Rs.45000 were donated by the public of Khyber Pakhtunkhwa and Rs.15000 by the Director General of Archaeology, India. After completion of the building, the museum was set up in November 1907 to house the Gandharan Sculptures excavated from the major Gandharan sites of Shah\–Ji\-Ki\-Dheri Peshawar, Sahri Bahlol, Takht\-i\-Bahi in the Mardan District and later from Jamal Garhi and other Gandharan sites excavated by British scholars. The two storey building, an amalgamation of the British and Mughal architectures, originally consisted of a main hall and two side aisles on the ground and first floor, surmounted by four elegant cupolas and small pinnacles on all the corners. On the eastern and western side of the building, two halls were added in similar fashion in 1969\-70 (one on each side). In 1974\-75, the second storey was added to these side halls.</item>
+        <item>Pushkalavati (modern Charsadda), and the first capital of Gandhara from 6th to 1st century BC, is situated 30 km to the northeast of Peshawar. The term Pushkalavati is a combination of two Prakrit words \'Pushkara/Pushkala\' and \'wati/vati\', which mean \'lotus\' and \'city\' respectively. The area is still very fertile and had ponds full of lotus flowers around the city, remnants of which can be seen around the site of Balahisar. The city goddess was also called Pushkalwati. The lotus flower, which also symbolized Buddha in archaic sect, is still grown in Charsadda. The legendary Hariti Devi and Panchika were born here and converted to Buddhism by Lord Buddha. The Syama Jatakat also took place. The he stupa of the \"Eye Gift\" was built here, to commemorate the generous gift of eyes by Buddha to the people of the land, which was recorded by Chinese pilgrims, who had visited the site. This region is also known as \"Hashtnagar\" which is a Persian word meaning \'eight villages\'. According to Prof. Dani this name is the informal form of \"Astes Nagar\", (city or village of Astes) called after its ruler Astes who ruled Gandhara before the onslaught of Alexander the Great in 327 BC.</item>
+        <item>Sethi Muhallah is an old 19th century establishment with absolutely stunning architecture. I visited \“Sethi House\” which is one of the 12 houses originally constructed within the area. The Sethi family were traders and had their business from Central Asia to Europe. Present \“Sethi house\” was taken by the heritage department and is now a museum, still under renovation. The house was constructed primarily with bricks, wood, sand and jute with beautiful carvings, glass and woodwork</item>
+    </string-array>
+
+
+    <!--        Cafe & Restaurant-->
+    <string-array name="cafe_restaurant_name">
+        <item>Khyber Charsi Tikka Shop</item>
+        <item>Cafe Crunch</item>
+        <item>Chief Burgers</item>
+    </string-array>
+    <string-array name="cafe_restaurant_latitude">
+        <item>33.9980686</item>
+        <item>33.9980795</item>
+        <item>34.0019644</item>
+    </string-array>
+    <string-array name="cafe_restaurant_longitude">
+        <item>71.4749613</item>
+        <item>71.4967556</item>
+        <item>71.4966813</item>
+    </string-array>
+    <string-array name="cafe_restaurant_short_address">
+        <item>University Rd</item>
+        <item>45 Old Jamrud Road</item>
+        <item>Fawad Plaza</item>
+    </string-array>
+    <string-array name="cafe_restauran_long_address">
+        <item>University Rd, Wahidabad Rahat Abad, Peshawar, Khyber Pakhtunkhwa 54000, Pakistan</item>
+        <item>45 Old Jamrud Road, University Town, Peshawar, Khyber Pakhtunkhwa, Pakistan</item>
+        <item>Fawad Plaza،, University Rd, Jahangir Abad Tahkal, Peshawar, Khyber Pakhtunkhwa, Pakistan</item>
+    </string-array>
+    <string-array name="cafe_restauran_phone">
+        <item>+92915850707</item>
+        <item>+92915701061</item>
+        <item>+92915844788</item>
+    </string-array>
+    <string-array name="cafe_restauran_webpage">
+        <item></item>
+        <item>www.foodpanda.pk/</item>
+        <item>http://www.chief.com.pk//</item>
+    </string-array>
+    <string-array name="cafe_restaurant_working_hours">
+        <item>11:00&#8211;22:00</item>
+        <item>11:00&#8211;23:00</item>
+        <item>10:00&#8211;22:00</item>
+    </string-array>
+
+    <!--    Shopping Data-->
+    <string-array name="shopping_name">
+        <item>Deans Shopping Mall</item>
+        <item>The Mall Tower</item>
+        <item>Central mall</item>
+    </string-array>
+    <string-array name="shopping_latitude">
+        <item>34.0010489</item>
+        <item>33.9991035</item>
+        <item>34.0021399</item>
+    </string-array>
+    <string-array name="shopping_longitude">
+        <item>71.5432891</item>
+        <item>71.5323931</item>
+        <item>71.5425614</item>
+    </string-array>
+    <string-array name="shopping_short_address">
+        <item>Saddar Rd, Peshawar Cantonment</item>
+        <item>Mall Rd, Peshawar Cantonment</item>
+        <item>UG-52 Opposite State Bank of Pakistan</item>
+    </string-array>
+    <string-array name="shopping_long_address">
+        <item>Saddar Rd, Peshawar Cantonment, Peshawar, Khyber Pakhtunkhwa 25000, Pakistan</item>
+        <item>Mall Rd, Peshawar Cantonment, Peshawar, Khyber Pakhtunkhwa, Pakistan</item>
+        <item>UG-52 Opposite State Bank of Pakistan Deans Trade Centre Peshawar،, Pakistan</item>
+    </string-array>
+    <string-array name="shopping_phone">
+        <item>+923159300600</item>
+        <item>+92919210829</item>
+        <item>+923225446600</item>
+    </string-array>
+    <string-array name="shopping_webpage">
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string-array name="shopping_working_hours">
+        <item>09:00&#8211;19:00</item>
+        <item>09:00&#8211;20:00</item>
+        <item>09:00&#8211;21:00</item>
+    </string-array>
+
+    <!--    Hotels-->
+    <string-array name="hotel_name">
+        <item>Amin Hotel</item>
+        <item>Fort Continental Hotel</item>
+        <item>Pearl Continental Hotel Peshawar</item>
+        <item>Shelton Guest House</item>
+        <item>Shelton Hotel Peshawar</item>
+        <item>Vip House</item>
+    </string-array>
+    <string-array name="hotel_latitude">
+        <item>34.0155305</item>
+        <item>34.0149419</item>
+        <item>34.0160062</item>
+        <item>33.9958273</item>
+        <item>33.9968883</item>
+        <item>33.9949492</item>
+    </string-array>
+    <string-array name="hotel_longitude">
+        <item>71.580187</item>
+        <item>71.5714735</item>
+        <item>71.5619748</item>
+        <item>71.4989765</item>
+        <item>71.5020969</item>
+        <item>71.5058097</item>
+    </string-array>
+    <string-array name="hotel_short_address">
+        <item>Hashtnagri Zaryab Colony</item>
+        <item>Firdos Chowk، Grand Trunk Rd</item>
+        <item>Khyber Rd, Peshawar Golf Club</item>
+        <item>71 Abdara Rd, University Town</item>
+        <item>77E Rehman Baba Rd</item>
+        <item>Old Bara Rd, University Town</item>
+    </string-array>
+    <string-array name="hotel_long_address">
+        <item>BRT Bus Station, Hashtnagri Zaryab Colony, Peshawar, Khyber Pakhtunkhwa 25000, Pakistan</item>
+        <item>Firdos Chowk، Grand Trunk Rd, Hashtnagri, Peshawar, Khyber Pakhtunkhwa, Pakistan</item>
+        <item>Khyber Rd, Peshawar Golf Club, Peshawar, Khyber Pakhtunkhwa 25000, Pakistan</item>
+        <item>71 Abdara Rd, University Town, Peshawar, Khyber Pakhtunkhwa 25000, Pakistan</item>
+        <item>77E Rehman Baba Rd, University Town, Peshawar, Khyber Pakhtunkhwa 25000, Pakistan</item>
+        <item>Old Bara Rd, University Town, Peshawar, Khyber Pakhtunkhwa 25000, Pakistan</item>
+    </string-array>
+    <string-array name="hotel_phone">
+        <item>091111091111</item>
+        <item>0912552201</item>
+        <item>091111505505</item>
+        <item>0915842595</item>
+        <item>0915270185</item>
+        <item>0915843392</item>
+    </string-array>
+    <string-array name="hotel_webpage">
+        <item>https://aminhotel.com/</item>
+        <item>http://www.fortcontinentalhotel.com/</item>
+        <item>http://www.pchotels.com/pcpeshawar</item>
+        <item>http://www.tmhotels.com/</item>
+        <item>http://www.tmhotels.com/</item>
+        <item>http://www.tmhotels.com/</item>
+    </string-array>
+    <string-array name="hotel_price">
+        <item>4,283PKR</item>
+        <item>11,104PKR</item>
+        <item>11,897PKR</item>
+        <item>9,359PKR</item>
+        <item>24,905PKR</item>
+        <item>4,441PKR</item>
+    </string-array>
+
+    <!--    Hospital-->
+    <string-array name="hospital_name">
+        <item>Lady Reading Hospital</item>
+        <item>Khyber Teaching Hospital</item>
+        <item>Peshawar General Hospital</item>
+    </string-array>
+    <string-array name="hospital_latitude">
+        <item>34.0109551</item>
+        <item>33.9965837</item>
+        <item>33.9928238</item>
+    </string-array>
+    <string-array name="hospital_longitude">
+        <item>71.5644203</item>
+        <item>71.4838501</item>
+        <item>71.438781</item>
+    </string-array>
+    <string-array name="hospital_short_address">
+        <item>Soekarno Rd</item>
+        <item>University Rd</item>
+        <item>Passport Office Rd</item>
+    </string-array>
+    <string-array name="hospital_long_address">
+        <item>Soekarno Rd, PTCL Colony Peshawar, Khyber Pakhtunkhwa 25000, Pakistan</item>
+        <item>University Rd, Rahat Abad, Peshawar, Khyber Pakhtunkhwa, Pakistan</item>
+        <item>Passport Office Rd, Phase 5 Hayatabad, Peshawar, Khyber Pakhtunkhwa, Pakistan</item>
+    </string-array>
+    <string-array name="hospital_phone">
+        <item>+92919211430</item>
+        <item></item>
+        <item>+92915892795</item>
+    </string-array>
+    <string-array name="hospital_webpage">
+        <item>http://lrh.edu.pk/</item>
+        <item>http://www.kth.gov.pk/</item>
+        <item>http://www.pgh.com.pk/</item>
+    </string-array>
+    <string-array name="hospital_working_hours">
+        <item>24hrs</item>
+        <item>24hrs</item>
+        <item>24hrs</item>
+    </string-array>
+
+
+    <!--    Transportation-->s
+    <!--    Buss-->
+    <string-array name="bus_name">
+        <item>Faisal Movers Bus Terminal</item>
+        <item>Dilawar Khan Travels</item>
+    </string-array>
+    <string-array name="bus_latitude">
+        <item>33.6150573</item>
+        <item>34.0161038</item>
+    </string-array>
+    <string-array name="bus_longitude">
+        <item>72.9901026</item>
+        <item>71.5925776</item>
+    </string-array>
+    <string-array name="bus_short_address">
+        <item>Peshawar Rd</item>
+        <item>Opp bus terminal، Grand Trunk Rd</item>
+    </string-array>
+    <string-array name="bus_long_address">
+        <item>Peshawar Rd, Islamabad View Colony, Rawalpindi, Punjab 46000, Pakistan</item>
+        <item>Opp bus terminal، Grand Trunk Rd, Sikander Town Sikandar Town, Peshawar, Khyber Pakhtunkhwa, Pakistan</item>
+    </string-array>
+    <string-array name="bus_phone">
+        <item>+92912262613</item>
+        <item>0912262613</item>
+    </string-array>
+
+
+    <!--    Airport-->
+    <string-array name="airport_name">
+        <item>Bacha Khan International Airport</item>
+    </string-array>
+    <string-array name="airport_latitude">
+        <item>33.9898</item>
+    </string-array>
+    <string-array name="airport_longitude">
+        <item>71.5192</item>
+    </string-array>
+    <string-array name="airport_short_address">
+        <item>Airport Rd</item>
+    </string-array>
+    <string-array name="airport_long_address">
+        <item>Airport Rd, Peshawar Cantonment, Peshawar, Khyber Pakhtunkhwa 24820</item>
+    </string-array>
+    <string-array name="airport_phone">
+        <item>0919211525</item>
+    </string-array>
+    <string-array name="airport_webpage">
+        <item>http://www.peshawarairport.com.pk/</item>
+    </string-array>
+
+    <!--    BRT Peshawar-->
+    <string-array name="brt_name">
+        <item>Bus Rapid Transit Peshawar</item>
+    </string-array>
+    <string-array name="brt_latitude">
+        <item>34.0189</item>
+    </string-array>
+    <string-array name="brt_longitude">
+        <item>71.6398</item>
+    </string-array>
+    <string-array name="brt_short_address">
+        <item>Chamkani Square</item>
+    </string-array>
+    <string-array name="brt_long_address">
+        <item>Chamkani Square, Peshawar, 25000</item>
+    </string-array>
+    <string-array name="brt_phone">
+        <item>0915700128</item>
+    </string-array>
+    <string-array name="brt_webpage">
+        <item>https://ptpkp.gov.pk/brt-introduction/</item>
+    </string-array>
+    <string-array name="brt_working_hours">
+        <item>06.00–22.00</item>
+    </string-array>
+    <string-array name="brt_description">
+        <item>Bus Rapid Transit (BRT) is a high quality high capacity transport system, which provides fast,
+            efficient, reliable and comfortable mode of transport for the travelers. In a BRT system, the buses travel in
+            a dedicated corridor and avoid the congestion on the road.
+            \n\n<big><font color="Green" size="31px">BRT FARE Structure:</font></big>
+            \n\n According to details, the BRT track stretches over 26 kilometers and has 31 stations with Chamkani and
+            Hayatabad serving as the terminals. There will be 450 buses in the BRT fleet, each having a capacity
+            of up to 95 people.\n\n
+            Last month, the KP government had revealed that fares for BRT will start at Rs.10 which will go up to Rs. 50
+            depending on the distance traveled.
+            \n\n
+        </item>
+    </string-array>
+
+</resources>
+
+
