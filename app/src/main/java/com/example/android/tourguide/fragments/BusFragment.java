@@ -1,4 +1,4 @@
-package com.example.android.kpktourguide.fragments;
+package com.example.android.tourguide.fragments;
 
 
 import android.content.res.Resources;
@@ -11,25 +11,24 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.example.android.kpktourguide.models.Place;
-import com.example.android.kpktourguide.adapters.PlaceAdapter;
-import com.example.android.kpktourguide.R;
+import com.example.android.tourguide.models.Place;
+import com.example.android.tourguide.adapters.PlaceAdapter;
+import com.example.android.tourguide.R;
 
 import java.util.ArrayList;
 
-
-public class CafeRestaurantFragment extends Fragment {
+/**
+ * A simple {@link Fragment} subclass.
+ */
+public class BusFragment extends Fragment {
 
     private int[] image = {
-           R.drawable.charsi_tikka,
-            R.drawable.chief_burger,
-            R.drawable.cafe_crunch
+            R.drawable.faisal_movers,
+            R.drawable.dilawar_khan
     };
-
-    public CafeRestaurantFragment() {
+    public BusFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
@@ -42,7 +41,7 @@ public class CafeRestaurantFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.list, container, false);
         Toolbar toolbar = rootView.findViewById(R.id.toolbar);
-        toolbar.setTitle("Cafe Restaurant");
+        toolbar.setTitle("Bus");
 
         toolbar.setNavigationIcon(R.drawable.ic_arrow_back);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
@@ -53,15 +52,12 @@ public class CafeRestaurantFragment extends Fragment {
         });
 
         Resources res = getResources();
-        final String[] name = res.getStringArray(R.array.cafe_restaurant_name);
-        final String[] shortAddress = res.getStringArray(R.array.cafe_restaurant_short_address);
-        final String[] longAddress = res.getStringArray(R.array.cafe_restauran_long_address);
-        final String[] phone = res.getStringArray(R.array.cafe_restauran_phone);
-        final String[] workHours = res.getStringArray(R.array.cafe_restaurant_working_hours);
-        final String[] webpage = res.getStringArray(R.array.cafe_restauran_webpage);
-        final String[] lat = res.getStringArray(R.array.cafe_restaurant_latitude);
-        final String[] lng = res.getStringArray(R.array.cafe_restaurant_longitude);
-
+        final String[] name = res.getStringArray(R.array.bus_name);
+        final String[] shortAddress = res.getStringArray(R.array.bus_short_address);
+        final String[] longAddress = res.getStringArray(R.array.bus_long_address);
+        final String[] phone = res.getStringArray(R.array.bus_phone);
+        final String[] lat = res.getStringArray(R.array.bus_latitude);
+        final String[] lng = res.getStringArray(R.array.bus_longitude);
 
         //Convert string-array to double-array for latitude:
         double[] latitude = new double[lat.length];
@@ -80,9 +76,10 @@ public class CafeRestaurantFragment extends Fragment {
 
 
             places.add(new Place(name[i], shortAddress[i],
-                    longAddress[i], workHours[i], longitude[i], latitude[i],
-                    phone[i], webpage[i], image[i]));
+                    longAddress[i], longitude[i], latitude[i],
+                    phone[i], image[i]));
         }
+
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
 
         ListView listView = rootView.findViewById(R.id.list);

@@ -1,4 +1,4 @@
-package com.example.android.kpktourguide.fragments;
+package com.example.android.tourguide.fragments;
 
 
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.android.kpktourguide.R;
+import com.example.android.tourguide.R;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;

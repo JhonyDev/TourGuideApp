@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.kpktourguide.fragments.MapFragment">
+    tools:context="com.example.android.tourguide.fragments.MapFragment">
 
     <fragment
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -14,7 +14,7 @@
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.example.android.kpktourguide.fragments.MapFragment"
+        tools:context="com.example.android.tourguide.fragments.MapFragment"
         />
 </LinearLayout>
 

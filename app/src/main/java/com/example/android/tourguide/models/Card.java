@@ -1,4 +1,4 @@
-package com.example.android.kpktourguide.models;
+package com.example.android.tourguide.models;
 
 
 

@@ -1,10 +1,10 @@
-package com.example.android.kpktourguide.adapters;
+package com.example.android.tourguide.adapters;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.example.android.kpktourguide.fragments.InformationFragment;
-import com.example.android.kpktourguide.fragments.MapFragment;
+import com.example.android.tourguide.fragments.InformationFragment;
+import com.example.android.tourguide.fragments.MapFragment;
 
 
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {

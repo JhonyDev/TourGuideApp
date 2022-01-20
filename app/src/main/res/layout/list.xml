@@ -24,7 +24,7 @@
         android:layout_height="match_parent"
         android:drawSelectorOnTop="true"
         android:orientation="vertical"
-        tools:context="com.example.android.kpktourguide.fragments.PopularPlacesFragment">
+        tools:context="com.example.android.tourguide.fragments.PopularPlacesFragment">
 
     </ListView>
 </LinearLayout>

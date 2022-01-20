@@ -1,4 +1,4 @@
-package com.example.android.kpktourguide.fragments;
+package com.example.android.tourguide.fragments;
 
 
 import android.content.res.Resources;
@@ -11,24 +11,24 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.example.android.kpktourguide.models.Place;
-import com.example.android.kpktourguide.adapters.PlaceAdapter;
-import com.example.android.kpktourguide.R;
+import com.example.android.tourguide.models.Place;
+import com.example.android.tourguide.adapters.PlaceAdapter;
+import com.example.android.tourguide.R;
 
 import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class MuseumFragment extends Fragment {
+public class HospitalFragment extends Fragment {
 
     private int[] image = {
-            R.drawable.peshawar_museum,
-            R.drawable.pushkalavati_museum,
-            R.drawable.sethi_house
+            R.drawable.lady_reading,
+            R.drawable.kth,
+            R.drawable.peshawar_general_hospital
     };
 
-    public MuseumFragment() {
+    public HospitalFragment() {
         // Required empty public constructor
     }
 
@@ -43,8 +43,7 @@ public class MuseumFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.list, container, false);
         Toolbar toolbar = rootView.findViewById(R.id.toolbar);
-        toolbar.setTitle("Museums");
-
+        toolbar.setTitle("Hospital");
         toolbar.setNavigationIcon(R.drawable.ic_arrow_back);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,16 +53,14 @@ public class MuseumFragment extends Fragment {
         });
 
         Resources res = getResources();
-        final String[] name = res.getStringArray(R.array.museum_name);
-        final String[] shortAddress = res.getStringArray(R.array.museum_short_address);
-        final String[] longAddress = res.getStringArray(R.array.museum_long_address);
-        final String[] phone = res.getStringArray(R.array.museum_phone);
-        final String[] workHours = res.getStringArray(R.array.museum_working_hours);
-        final String[] webpage = res.getStringArray(R.array.museum_webpage);
-        final String[] description = res.getStringArray(R.array.museum_description);
-
-        final String[] lat = res.getStringArray(R.array.museum_latitude);
-        final String[] lng = res.getStringArray(R.array.museum_longitude);
+        final String[] name = res.getStringArray(R.array.hospital_name);
+        final String[] shortAddress = res.getStringArray(R.array.hospital_short_address);
+        final String[] longAddress = res.getStringArray(R.array.hospital_long_address);
+        final String[] phone = res.getStringArray(R.array.hospital_phone);
+        final String[] workHours = res.getStringArray(R.array.hospital_working_hours);
+        final String[] webpage = res.getStringArray(R.array.hospital_webpage);
+        final String[] lat = res.getStringArray(R.array.hospital_latitude);
+        final String[] lng = res.getStringArray(R.array.hospital_longitude);
 
 
         //Convert string-array to double-array for latitude:
@@ -82,18 +79,19 @@ public class MuseumFragment extends Fragment {
         for (int i = 0; i < name.length; i++) {
 
 
-            places.add(new Place(name[i], shortAddress[i], description[i],
+            places.add(new Place(name[i], shortAddress[i],
                     longAddress[i], workHours[i], longitude[i], latitude[i],
                     phone[i], webpage[i], image[i]));
         }
 
-            PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
+        PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
 
-            ListView listView = rootView.findViewById(R.id.list);
+        ListView listView = rootView.findViewById(R.id.list);
 
-            listView.setAdapter(adapter);
+        listView.setAdapter(adapter);
 
-            return rootView;
+        return rootView;
 
-        }
+
+    }
 }

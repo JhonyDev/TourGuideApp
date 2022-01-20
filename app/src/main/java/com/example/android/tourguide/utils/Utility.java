@@ -1,4 +1,4 @@
-package com.example.android.kpktourguide.utils;
+package com.example.android.tourguide.utils;
 
 import android.content.Context;
 import android.util.DisplayMetrics;

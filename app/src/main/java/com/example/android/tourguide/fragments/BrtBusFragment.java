@@ -1,4 +1,4 @@
-package com.example.android.kpktourguide.fragments;
+package com.example.android.tourguide.fragments;
 
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -11,9 +11,9 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 
-import com.example.android.kpktourguide.models.Place;
-import com.example.android.kpktourguide.adapters.PlaceAdapter;
-import com.example.android.kpktourguide.R;
+import com.example.android.tourguide.models.Place;
+import com.example.android.tourguide.adapters.PlaceAdapter;
+import com.example.android.tourguide.R;
 
 import java.util.ArrayList;
 

@@ -1,10 +1,10 @@
-package com.example.android.kpktourguide.activities;
+package com.example.android.tourguide.activities;
 import android.content.Intent;
 
-import com.example.android.kpktourguide.R;
-import com.example.android.kpktourguide.adapters.SimpleFragmentPagerAdapter;
-import com.example.android.kpktourguide.fragments.InformationFragment;
-import com.example.android.kpktourguide.fragments.MapFragment;
+import com.example.android.tourguide.R;
+import com.example.android.tourguide.adapters.SimpleFragmentPagerAdapter;
+import com.example.android.tourguide.fragments.InformationFragment;
+import com.example.android.tourguide.fragments.MapFragment;
 import com.google.android.material.tabs.TabLayout;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;

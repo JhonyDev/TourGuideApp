@@ -1,4 +1,4 @@
-package com.example.android.kpktourguide.activities;
+package com.example.android.tourguide.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -18,19 +18,19 @@ import androidx.fragment.app.FragmentManager;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.android.kpktourguide.R;
-import com.example.android.kpktourguide.adapters.RecyclerViewAdapter;
-import com.example.android.kpktourguide.fragments.AirportFragment;
-import com.example.android.kpktourguide.fragments.BrtBusFragment;
-import com.example.android.kpktourguide.fragments.BusFragment;
-import com.example.android.kpktourguide.fragments.CafeRestaurantFragment;
-import com.example.android.kpktourguide.fragments.HospitalFragment;
-import com.example.android.kpktourguide.fragments.HotelFragment;
-import com.example.android.kpktourguide.fragments.MuseumFragment;
-import com.example.android.kpktourguide.fragments.PopularPlacesFragment;
-import com.example.android.kpktourguide.fragments.ShoppingFragment;
-import com.example.android.kpktourguide.models.Card;
-import com.example.android.kpktourguide.utils.Utility;
+import com.example.android.tourguide.R;
+import com.example.android.tourguide.adapters.RecyclerViewAdapter;
+import com.example.android.tourguide.fragments.AirportFragment;
+import com.example.android.tourguide.fragments.BrtBusFragment;
+import com.example.android.tourguide.fragments.BusFragment;
+import com.example.android.tourguide.fragments.CafeRestaurantFragment;
+import com.example.android.tourguide.fragments.HospitalFragment;
+import com.example.android.tourguide.fragments.HotelFragment;
+import com.example.android.tourguide.fragments.MuseumFragment;
+import com.example.android.tourguide.fragments.PopularPlacesFragment;
+import com.example.android.tourguide.fragments.ShoppingFragment;
+import com.example.android.tourguide.models.Card;
+import com.example.android.tourguide.utils.Utility;
 import com.google.android.material.navigation.NavigationView;
 
 import java.util.ArrayList;

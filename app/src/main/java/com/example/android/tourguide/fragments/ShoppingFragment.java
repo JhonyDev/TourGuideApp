@@ -1,34 +1,34 @@
-package com.example.android.kpktourguide.fragments;
+package com.example.android.tourguide.fragments;
 
 
 import android.content.res.Resources;
 import android.os.Bundle;
-
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.appcompat.widget.Toolbar;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.example.android.kpktourguide.models.Place;
-import com.example.android.kpktourguide.adapters.PlaceAdapter;
-import com.example.android.kpktourguide.R;
+import com.example.android.tourguide.models.Place;
+import com.example.android.tourguide.adapters.PlaceAdapter;
+import com.example.android.tourguide.R;
 
 import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class AirportFragment extends Fragment {
+public class ShoppingFragment extends Fragment {
 
-    private int[] image = {
-            R.drawable.bacha_khan_airport
-    };
+    private int [] image = {
+            R.drawable.deans_shopping_mall,
+            R.drawable.the_mall_tower,
+            R.drawable.central_mall
+};
 
-    public AirportFragment() {
+    public ShoppingFragment() {
         // Required empty public constructor
     }
 
@@ -43,7 +43,7 @@ public class AirportFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.list, container, false);
         Toolbar toolbar = rootView.findViewById(R.id.toolbar);
-        toolbar.setTitle("Airport");
+        toolbar.setTitle("Shopping");
 
         toolbar.setNavigationIcon(R.drawable.ic_arrow_back);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
@@ -54,13 +54,15 @@ public class AirportFragment extends Fragment {
         });
 
         Resources res = getResources();
-        final String[] name = res.getStringArray(R.array.airport_name);
-        final String[] shortAddress = res.getStringArray(R.array.airport_short_address);
-        final String[] longAddress = res.getStringArray(R.array.airport_long_address);
-        final String[] phone = res.getStringArray(R.array.airport_phone);
-        final String[] webpage = res.getStringArray(R.array.airport_webpage);
-        final String[] lat = res.getStringArray(R.array.airport_latitude);
-        final String[] lng = res.getStringArray(R.array.airport_longitude);
+        final String[] name = res.getStringArray(R.array.shopping_name);
+        final String[] shortAddress = res.getStringArray(R.array.shopping_short_address);
+        final String[] longAddress = res.getStringArray(R.array.shopping_long_address);
+        final String[] phone = res.getStringArray(R.array.shopping_phone);
+        final String[] workHours = res.getStringArray(R.array.shopping_working_hours);
+        final String[] webpage = res.getStringArray(R.array.shopping_webpage);
+
+        final String[] lat = res.getStringArray(R.array.shopping_latitude);
+        final String[] lng = res.getStringArray(R.array.shopping_longitude);
 
 
         //Convert string-array to double-array for latitude:
@@ -76,15 +78,23 @@ public class AirportFragment extends Fragment {
 
         final ArrayList<Place> places = new ArrayList<>();
 
-        for (int i = 0; i < name.length; i++)
-            places.add(new Place(name[i], shortAddress[i],
-                    longAddress[i], longitude[i], latitude[i],
-                    phone[i], webpage[i], image[i]));
+        for (int i = 0; i < name.length; i++) {
 
+
+            places.add(new Place(name[i], shortAddress[i],
+                    longAddress[i], workHours[i], longitude[i], latitude[i],
+                    phone[i], webpage[i], image[i]));
+        }
 
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
+
         ListView listView = rootView.findViewById(R.id.list);
+
         listView.setAdapter(adapter);
+
         return rootView;
+
+
     }
 }
+

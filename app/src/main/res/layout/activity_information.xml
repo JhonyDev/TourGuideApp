@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.kpktourguide.fragments.InformationFragment">
+    tools:context="com.example.android.tourguide.fragments.InformationFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:paddingBottom="@dimen/standard_padding"
-        tools:context="com.example.android.kpktourguide.fragments.InformationFragment">
+        tools:context="com.example.android.tourguide.fragments.InformationFragment">
 
         <ImageView
             android:id="@+id/image"

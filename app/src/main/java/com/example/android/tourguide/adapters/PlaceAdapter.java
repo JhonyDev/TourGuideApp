@@ -1,4 +1,4 @@
-package com.example.android.kpktourguide.adapters;
+package com.example.android.tourguide.adapters;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,9 +11,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.android.kpktourguide.activities.DetailsActivity;
-import com.example.android.kpktourguide.models.Place;
-import com.example.android.kpktourguide.R;
+import com.example.android.tourguide.activities.DetailsActivity;
+import com.example.android.tourguide.models.Place;
+import com.example.android.tourguide.R;
 
 import java.util.ArrayList;
 

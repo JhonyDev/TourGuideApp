@@ -1,4 +1,4 @@
-package com.example.android.kpktourguide.fragments;
+package com.example.android.tourguide.fragments;
 
 
 import android.content.Intent;
@@ -6,14 +6,13 @@ import android.net.Uri;
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.android.kpktourguide.R;
+import com.example.android.tourguide.R;
 
 /**
  * A simple {@link Fragment} subclass.

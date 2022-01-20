@@ -1,4 +1,4 @@
-package com.example.android.kpktourguide.adapters;
+package com.example.android.tourguide.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,9 +12,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.android.kpktourguide.models.Card;
-import com.example.android.kpktourguide.activities.DetailsActivity;
-import com.example.android.kpktourguide.R;
+import com.example.android.tourguide.models.Card;
+import com.example.android.tourguide.activities.DetailsActivity;
+import com.example.android.tourguide.R;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.example.android.kpktourguide;
+package com.example.android.tourguide;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;
