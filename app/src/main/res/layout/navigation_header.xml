@@ -17,6 +17,6 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/home_IV_dimension"
         android:scaleType="centerCrop"
-        android:src="@drawable/islamia_college" />
+        android:src="@drawable/kashmir1" />
 
 </LinearLayout>

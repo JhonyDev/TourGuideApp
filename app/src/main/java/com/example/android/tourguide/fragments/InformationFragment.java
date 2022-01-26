@@ -99,9 +99,6 @@ public class InformationFragment extends Fragment {
 
 
         IV.setImageResource(imageID);
-        phoneIV.setImageResource(R.drawable.ic_phone);
-        webIV.setImageResource(R.drawable.ic_webpage);
-        addressIV.setImageResource(R.drawable.ic_address);
 
 
         //Some data can be missing, such as description or phone, so these codes are for removing related views in null cases:

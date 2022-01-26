@@ -29,7 +29,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:scaleType="centerCrop"
-            android:src="@drawable/islamia_college" />
+            android:src="@drawable/kashmir1" />
 
         <LinearLayout
             android:layout_width="match_parent"
