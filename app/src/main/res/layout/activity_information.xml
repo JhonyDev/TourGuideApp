@@ -36,7 +36,8 @@
             style="@style/info_TV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="italic" />
+            android:textStyle="italic"
+            android:visibility="gone" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -53,9 +54,9 @@
             <TextView
                 android:id="@+id/tv_review"
                 style="@style/info_TV"
-                android:text="@string/write_a_review"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:text="@string/write_a_review" />
         </LinearLayout>
 
         <LinearLayout

@@ -97,9 +97,7 @@ public class InformationFragment extends Fragment {
             }
         });
 
-
         IV.setImageResource(imageID);
-
 
         //Some data can be missing, such as description or phone, so these codes are for removing related views in null cases:
 
