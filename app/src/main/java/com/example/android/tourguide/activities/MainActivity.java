@@ -41,11 +41,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onSaveInstanceState(Bundle savedInstanceState) {
-
         super.onSaveInstanceState(savedInstanceState);
-
 //        savedInstanceState.putInt(ITEM_ID, mSelectedId);
-
     }
 
     @Override
