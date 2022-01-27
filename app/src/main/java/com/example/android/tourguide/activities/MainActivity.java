@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
         super.onSaveInstanceState(savedInstanceState);
 
-        savedInstanceState.putInt(ITEM_ID, mSelectedId);
+//        savedInstanceState.putInt(ITEM_ID, mSelectedId);
 
     }
 
