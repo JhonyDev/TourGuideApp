@@ -32,10 +32,8 @@ public class MainActivity extends AppCompatActivity {
     private static final String FIRST_TIME = "first_time";
     List<Card> recyclerList;
     private int mSelectedId;
-    private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
     private Toolbar mToolbar;
-    private NavigationView mDrawer;
     private boolean mDrawerIsSeen = false;
     private boolean isStartup = true;
 
@@ -53,9 +51,7 @@ public class MainActivity extends AppCompatActivity {
         mToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
 
-        mDrawer = findViewById(R.id.main_drawer);
 
-        mDrawerLayout = findViewById(R.id.drawerLayout);
 //        mToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.open, R.string.close);
 //
 //
@@ -323,41 +319,16 @@ public class MainActivity extends AppCompatActivity {
 
     private void showDrawer() {
 
-        mDrawerLayout.openDrawer(GravityCompat.START);
         markIfDrawerIsSeen();
     }
 
     private void hideDrawer() {
 
-        mDrawerLayout.closeDrawer(GravityCompat.START);
     }
 
     @Override
     public void onBackPressed() {
 
-        if (mDrawerLayout.isDrawerOpen(GravityCompat.START)) {
-
-            mDrawerLayout.closeDrawer(GravityCompat.START);
-        } else {
-
-            do {
-                if (!isStartup) {
-
-                    //recreate after removeAllFiles command:
-                    startActivity(new Intent(this, MainActivity.class));
-                    super.onBackPressed();
-                    isStartup = true;
-
-
-                } else {
-
-                    super.onBackPressed();
-                    isStartup = false;
-
-                }
-            } while (isStartup);
-
-        }
     }
 
 }

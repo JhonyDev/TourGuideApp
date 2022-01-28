@@ -34,18 +34,5 @@
         </LinearLayout>
     </FrameLayout>
 
-    <com.google.android.material.navigation.NavigationView
-        android:id="@+id/main_drawer"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:duplicateParentState="true"
-        android:textSize="@dimen/info_TV_size_normal"
-        app:headerLayout="@layout/navigation_header"
-        app:itemTextColor="@drawable/text_selector"
-        app:menu="@menu/navigation_menu">
-
-
-    </com.google.android.material.navigation.NavigationView>
 
 </androidx.drawerlayout.widget.DrawerLayout>
